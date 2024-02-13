@@ -63,6 +63,16 @@ from roman_numeral import RomanNumeral
         (1000, "M"),
         (1001, "MI"),
         (1101, "MCI"),
+        (1102, "MCII"),
+        (1103, "MCIII"),
+        (1201, "MCCI"),
+        (2024, "MMXXIV"),
+        (3000, "MMM"),
+        (3999, "MMMCMXCIX"),
+        (4012, "MMMMXII"),
+        (4999, "MMMMCMXCIX"),
+        (5000, "Number is too large"),
+        (9999, "Number is too large"),
     ]
 )
 def test_convert(arabic_digit, roman_numeral):
